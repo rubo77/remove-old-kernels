@@ -12,7 +12,8 @@ OLD_KERNELS=$(
     dpkg --get-selections |
         grep -v "linux-headers-generic" |
         grep -v "linux-image-generic" |
-        grep -v "linux-image-generic" |
+        grep -v "linux-image-amd64" |
+        grep -v "linux-image-arm64" |
         grep -v "${IN_USE%%-generic}" |
         grep -Ei 'linux-image|linux-headers|linux-modules' |
         awk '{ print $1 }'
