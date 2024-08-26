@@ -7,6 +7,7 @@
 uname -a
 IN_USE=$(uname -a | awk '{ print $3 }')
 echo "Your in use kernel is $IN_USE"
+echo "Be sure to restart the system after a new kernel install before running this script!"
 
 OLD_KERNELS=$(
     dpkg --get-selections |
