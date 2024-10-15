@@ -10,7 +10,8 @@ the list of old kernels and modules printed in the dry run
  - awk
 
        apt install gawk
-   
+
 ### authors:
 - alex Burdusel and @eitch on https://askubuntu.com/a/1409370/34298
 - Ruben Barkow-Kuder
+- Cole Brown
