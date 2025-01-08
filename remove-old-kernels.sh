@@ -89,7 +89,7 @@ if [[ $EXIT_CODE -ne 0 ]]; then
         echo "  - None."
     fi
 else
-    for MODULE in $OLD_KERNELS; do
+    for MODULE in $OLD_MODULES; do
         echo "  - $MODULE"
     done
 fi
